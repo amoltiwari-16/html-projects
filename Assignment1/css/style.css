@@ -1,0 +1,147 @@
+
+body
+{
+  background: black;
+}
+
+header
+{
+  background: gray;
+  border-bottom: 1px black solid;
+  width: 100%;
+  position: fixed;
+  opacity: 0.8;
+}
+
+#logo
+{
+  width: 180px;
+  height: 160px;
+  margin-left: 200px;
+
+}
+
+
+/* class for applying fixed margin to different sections */
+.cnt-margin
+{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* top margin to position container below header */
+.topmargin
+{
+  padding-top: 180px;
+}
+
+/* text in white color */
+.txtwhite
+{
+  color: white;
+  font-family: sans-serif;
+}
+
+/* text in gray color */
+.txtgrey
+{
+  color: gray;
+  font-family: sans-serif;
+}
+
+.container_12
+{
+  background: black;
+}
+
+/* menu position to float right */
+nav
+{
+  float: right;
+  margin-top: 60px;
+}
+
+nav li 
+{
+  display:inline;
+  margin-right: 30px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+li a, .gotop a
+{
+  color: black;
+  text-decoration: none;
+  border-radius: 0.2;
+  border:1px solid black;
+  font-family: 'Ruslan Display', cursive;
+  padding: 5px;
+
+}
+ 
+/* for menu list hover effect */
+.menu a.links:hover, h3 a:hover
+{
+  background:black;
+  color: gray;
+  opacity: 0.9;
+}
+
+
+/* for menu positioning */
+nav ul :nth-child(3)
+{
+  margin-right: 400px;
+}
+
+/* portfolio and grid_4 display image specification */
+.img
+{
+  height: 230px;
+  width: 300px;
+
+}
+
+.herounit img
+{
+height:800px;
+width: 100%;
+}
+
+/*  image specification for shop description section */
+section img
+{
+  width: 300px;
+  height: 300px;
+}
+
+.inline ,section aside
+{
+  display: inline;
+}
+
+footer 
+{
+  
+  background: gray;
+  font-size: 20px;
+  padding-top: 50px;
+  text-align: center;
+  border: 1px solid black;
+  opacity: 0.7;
+} 
+
+footer a
+{
+padding-left: 25px;
+}
+
+/* back to top link styling */
+.gotop
+{
+  padding-top: 30px;
+  padding-bottom: 20px;
+
+}
+
